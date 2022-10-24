@@ -9,7 +9,12 @@ try:
     OWNER = config("OWNER")
     STORAGE_CHANNEL = config("STORAGE_CHANNEL", cast=int)
     MAIN_CHANNEL = config("MAIN_CHANNEL", cast=int)
-    
+
+    # for speed time stuffs
+
+    SPEED_START_TIME = 10
+    SPEED_STOP_TIME = 17
+    SPEED = 15
 
     # for railway
 
